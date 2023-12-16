@@ -1,7 +1,14 @@
 package oncall;
 
+import oncall.controller.MainController;
+
 public class Application {
     public static void main(String[] args) {
-        // TODO: 프로그램 구현
+        try {
+            MainController mainController = new MainController();
+            mainController.run();
+        } catch (IllegalArgumentException e) {
+            System.out.println(e.getMessage());
+        }
     }
 }

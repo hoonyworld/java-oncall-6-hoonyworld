@@ -38,7 +38,7 @@
     - 10월 3일
     - 10월 9일
     - 12월 25일
-- [ ]  도메인 로직에 단위 테스트를 구현. 단, UI(System.out, [System.in](http://system.in/), Scanner) 로직은 제외
+- [X]  도메인 로직에 단위 테스트를 구현. 단, UI(System.out, [System.in](http://system.in/), Scanner) 로직은 제외
 
 ### ✅ 예외 처리
 

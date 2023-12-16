@@ -10,18 +10,18 @@ public enum Holiday {
     HANGUL_DAY("월",10, 9),
     CHRISTMAS("월", 12, 25);
 
-    private final String weekAndWkeekendForHoliday;
+    private final String DayofTheWeekForHoliday;
     private final int month;
     private final int day;
 
-    Holiday(String weekAndWkeekendForHoliday, int month, int day) {
-        this.weekAndWkeekendForHoliday = weekAndWkeekendForHoliday;
+    Holiday(String holiday, int month, int day) {
+        this.DayofTheWeekForHoliday = holiday;
         this.month = month;
         this.day = day;
     }
 
     public String getHolidayDayOfWeek() {
-        return weekAndWkeekendForHoliday;
+        return DayofTheWeekForHoliday;
     }
 
     public static boolean isHoliday(int month, int day) {
